@@ -31,7 +31,7 @@ function Auth() {
   return (
     <main style={{ maxWidth: 400 }}>
       <form className="card" onSubmit={submit}>
-        <h2>🏹 Roobin Hood Academy</h2>
+        <h2>🏹 Robin Hood Academy</h2>
         <p className="mut">Paathshala volunteer portal</p>
         {mode === 'signup' && (<><label>Full name</label><input required value={f.name} onChange={set('name')} /></>)}
         <label>Email</label><input type="email" required value={f.email} onChange={set('email')} />
