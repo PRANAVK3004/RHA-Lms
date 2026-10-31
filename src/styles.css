@@ -22,3 +22,13 @@ button:disabled{opacity:.6}
 .err{color:#c92a2a;font-size:14px}
 .log{border-left:3px solid var(--line);padding-left:12px;margin:12px 0}
 h2,h3{margin:0 0 8px}
+.tabs{display:flex;gap:8px;margin:14px 0;flex-wrap:wrap}
+.tabs button{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.tabs button.active{background:var(--pri);color:#fff;border-color:var(--pri)}
+.focus{background:var(--pri2);border-color:var(--pri)}
+.bar{display:flex;height:14px;border-radius:99px;overflow:hidden;background:var(--line)}
+.tip{padding:8px 10px;border-radius:6px;margin:6px 0;font-size:14px}
+.tip.warn{background:#fff4e6;border-left:4px solid var(--pri)}
+.tip.good{background:#ebfbee;border-left:4px solid var(--ok)}
+.tip.info{background:#edf2ff;border-left:4px solid #4c6ef5}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
